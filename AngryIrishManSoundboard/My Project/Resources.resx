@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Untitled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AFuckenAyShur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AFuckenAyShur.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AFuckRingYou" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AFuckRingYou.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AndDontGiveMeNoShake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AndDontGiveMeNoShake.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AndIDontKnowHowMuchItIs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AndIDontKnowHowMuchItIs.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AndIDontKnowWhatTheHIreOfTheMIs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AndIDontKnowWhatTheHIreOfTheMIs.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AndWithYouChippingAway" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AndWithYouChippingAway.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Arght" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arght.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AYouListenToFuckenMe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AYouListenToFuckenMe.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Belch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Belch.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CanYeHearMe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CanYeHearMe.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CANYOUFUCKINHEARMENOWYOUSTUPIDCANT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CANYOUFUCKINHEARMENOWYOUSTUPIDCANT.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\classic.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DontActTheCantBecauseYouFarAway" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DontActTheCantBecauseYouFarAway.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HangUpPt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HangUpPt1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HangUpPt2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HangUpPt2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HowLongAreYouStoopingDownForFric" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HowLongAreYouStoopingDownForFric.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Huller" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Huller.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IDontHIreNOOneOut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDontHIreNOOneOut.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IsThatRightShur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IsThatRightShur.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ITellYouThisAManyTimes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ITellYouThisAManyTimes.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ManYouAreSomeAssHole" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ManYouAreSomeAssHole.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NahImNotAtNoBase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NahImNotAtNoBase.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NaightThatsRite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NaightThatsRite.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Naw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Naw.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NawWellUThoughtFockenRong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NawWellUThoughtFockenRong.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NawWeMadMoreMeh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NawWeMadMoreMeh.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NowSoIfYoureAskingAboutHIgherPrices" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NowSoIfYoureAskingAboutHIgherPrices.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PriceTalkPt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PriceTalkPt1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PriceTalkPt2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PriceTalkPt2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Rite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rite.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SeeWhenYouGetCloseToMe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SeeWhenYouGetCloseToMe.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SoJustYouGetThatOutOfYourFockenHead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SoJustYouGetThatOutOfYourFockenHead.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SoWhatAreYouRingingMeAtThisTimeOfNiteFor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SoWhatAreYouRingingMeAtThisTimeOfNiteFor.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Wat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wat.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WellIJust" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WellIJust.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WellYouThoughtFuckenWrongThatsWhatUThought" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WellYouThoughtFuckenWrongThatsWhatUThought.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WhatsWhat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsWhat.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Wot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wot.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="YaFuckinBollocksYa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YaFuckinBollocksYa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Yes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yes.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="YouFockenKnowWell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YouFockenKnowWell.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="YouFuckenAssHole" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YouFuckenAssHole.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="YouFuckenBollocksYe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YouFuckenBollocksYe.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="YouStupidAssHole" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YouStupidAssHole.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="YouStupidCant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YouStupidCant.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
